@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dirent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/navbar.css" />
+    <link rel="stylesheet" href="../CSS/catalogo.css"/>
+    <script defer src="../JS/app.js"></script>
+    <script src="https://kit.fontawesome.com/d7854b1267.js" crossorigin="anonymous"></script>
+	<script src="/JS/jquery-3.2.1.js"></script>
+	<script src="/JS/script.js"></script>
+  </head>
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+            <a href="#" class="logo">
+                <div class="logotype">
+                    Dirent
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                <i class="fas fa-times"></i>
+                </button>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="micuenta.html">Mi cuenta</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+      </nav>
+    </header>
+    <div class="lista_categorias">
+        <a href="#" class="category_item ct_item-active" category="todos">Todos</a>
+        <a href="#" class="category_item ct_item-active" category="auto">Auto</a>
+        <a href="#" class="category_item ct_item-active" category="sedan">Sedan</a>
+        <a href="#" class="category_item ct_item-active" category="suv">SUV</a>
+        <a href="#" class="category_item ct_item-active" category="camioneta">Camioneta</a>
+        <a href="#" class="category_item ct_item-active" category="deportivo">Deportivo</a>
+    </div>
+        <div class="contenedor">
+            <div class="product-item" category="auto">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/corsa.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Chevrolet Corsa</h3>
+                            <p>Vehiculo apto para 5 personas, motor 1.6 naftero, modelo 2010</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="auto">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/cruze.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Chevrolet Cruze</h3>
+                            <p>Vehiculo apto para 5 personas, motor 1.4 naftero, modelo 2017</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="suv">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/ecosport.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Ford Ecosport</h3>
+                            <p>Vehiculo apto para 5 personas, motor 1.6 gasolero, modelo 2008</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="sedan">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/fluence.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Renault Fluence</h3>
+                            <p>Vehiculo apto para 5 personas, motor 2.0 naftero, modelo 2012</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        <div class="product-item" category="auto">
+            <div class="cards">
+                <figure>
+                    <img src="../IMG/catalogo/autos/ford-fiesta.jpg" alt="">
+                    <div class="contenido">
+                        <h3>Ford Fiesta</h3>
+                        <p>Vehiculo apto para 5 personas, motor 1.6 naftero, modelo 2018</p>
+                        <button><a href="#">Alquilar</a></button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+        <div class="product-item" category="auto">
+            <div class="cards">
+                <figure>
+                    <img src="../IMG/catalogo/autos/kwid.jpg" alt="">
+                    <div class="contenido">
+                        <h3>Chevrolet corsa</h3>
+                        <p>Vehiculo apto para 4 personas, motor 1.0 naftero, modelo 2019</p>
+                        <button><a href="#">Alquilar</a></button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+        <div class="product-item" category="sedan">
+            <div class="cards">
+                <figure>
+                    <img src="../IMG/catalogo/autos/laguna.jpg" alt="">
+                    <div class="contenido">
+                        <h3>Renault laguna</h3>
+                        <p>Vehiculo apto para 5 personas, motor 1.9 gasolero, modelo 2004</p>
+                        <button><a href="#">Alquilar</a></button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+            <div class="product-item" category="deportivo">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/mustang.jpeg" alt="">
+                        <div class="contenido">
+                            <h3>Ford Mustang</h3>
+                            <p>Vehiculo apto para 2 personas, motor 5.8 V8 naftero, modelo 2021</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="suv">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/partner.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Peugeot Partner</h3>
+                            <p>Vehiculo apto para 5 personas con gran baul, motor 1.6 naftero, modelo 2020</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="camioneta">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/ranger.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Ford Ranger</h3>
+                            <p>Vehiculo apto para 5 personas, motor 2.0 gasolero, modelo 2006</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="suv">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/suran.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Volkswagen Suran</h3>
+                            <p>Vehiculo apto para 5 personas, motor 1.6 naftero, modelo 2016</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="sedan">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/catalogo/autos/Volkswagen-vento.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Volkswagen Vento</h3>
+                            <p>Vehiculo apto para 5 personas, motor 2.0 naftero, modelo 2014</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="camioneta">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/Slider-rec/amarok-1.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Volkswagen Amarok</h3>
+                            <p>Vehiculo apto para 5 personas, motor 2.2 naftero, modelo 2021</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="sedan">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/Slider-rec/mondeo-1.jpg" alt="">
+                        <div class="contenido">
+                            <h3>Ford Mondeo</h3>
+                            <p>Vehiculo apto para 5 personas, motor 2.2 naftero, modelo 2021</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <div class="product-item" category="suv">
+                <div class="cards">
+                    <figure>
+                        <img src="../IMG/Slider-rec/tracker-1.png" alt="">
+                        <div class="contenido">
+                            <h3>Chevrolet Tracker</h3>
+                            <p>Vehiculo apto para 5 personas, motor 1.2 naftero, modelo 2021</p>
+                            <button><a href="#">Alquilar</a></button>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        <div class="product-item" category="camioneta"> 
+            <div class="cards">
+                <figure>
+                    <img src="../IMG/catalogo/autos/ram.jpg" alt="">
+                    <div class="contenido">
+                        <h3>Dodge RAM</h3>
+                        <p>Vehiculo apto para 5 personas, motor 5.7 v8 naftero, modelo 2021</p>
+                        <button><a href="#">Alquilar</a></button>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </body>
+    </html>
